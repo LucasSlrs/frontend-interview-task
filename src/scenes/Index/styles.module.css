@@ -1,4 +1,10 @@
 .container {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.titles {
+  text-align: center
 }

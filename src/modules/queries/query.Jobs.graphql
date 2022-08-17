@@ -2,6 +2,7 @@
 query Jobs {
   jobs {
     id
+    name
     status
     createdAt
   }

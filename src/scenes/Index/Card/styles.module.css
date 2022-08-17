@@ -9,6 +9,15 @@
   font-size: 1.1rem;
 }
 
+.truncedTitle {
+  font-weight: 500;
+  font-size: 1.1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 450px;
+}
+
 .subtitle {
   font-size: 0.9rem;
   color: var(--io-color-bg-text-subtle);
